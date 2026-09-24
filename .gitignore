@@ -1,0 +1,38 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Local AI models and runtime data
+models/*
+!models/.gitkeep
+
+# Databases / vector stores / caches
+*.db
+*.sqlite
+*.sqlite3
+cache/
+vector-store/
+lancedb/
+chroma/
+
+# Logs
+*.log
+logs/
+
+# Generated files
+generated/
+tmp/
+temp/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
